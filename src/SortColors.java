@@ -1,6 +1,14 @@
 import java.util.Arrays;
 
+/*
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+https://leetcode.com/problems/sort-colors/description/
+ */
 public class SortColors {
+    /*
+Time complexity: O(n)
+Space complexity: O(1)
+ */
     public static void sortColors(int[] nums) {
         int left = 0;
         int mid = 0;
